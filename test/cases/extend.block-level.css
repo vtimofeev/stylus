@@ -1,0 +1,9 @@
+.content,
+.block-root .extend-out,
+.block-root .text-extend-sub-1 .text-extend-sub-2 {
+  color: #000;
+}
+.block-root .content,
+.block-root-next {
+  color: #f00;
+}

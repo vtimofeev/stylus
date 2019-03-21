@@ -1,0 +1,15 @@
+
+.content
+  color black
+
+.block-root
+  .content
+    color red
+  .extend-out
+    @extend .content
+  .text-extend-sub-1
+    .text-extend-sub-2
+      @extend .content
+
+.block-root-next
+  @extend .block-root .content
