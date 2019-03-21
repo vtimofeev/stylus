@@ -1,9 +1,14 @@
-.content,
-.block-root .extend-out,
-.block-root .text-extend-sub-1 .text-extend-sub-2 {
+.content {
   color: #000;
 }
 .block-root .content,
+.block-root .extend-out,
+.block-root .text-extend-sub-1 .text-extend-sub-2,
 .block-root-next {
+  color: #f00;
+}
+.block-root-import .a,
+.block-root-import .b:hover,
+.block-root-import .c:hover {
   color: #f00;
 }

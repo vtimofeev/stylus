@@ -1,3 +1,26 @@
+0.55.0 / 2019-03-21
+===================
+
+  * Feature: Extend try search `selector` in block, when search in `root`;
+  * Merged changes from dev branch:
+    Merge pull request #2375 from Boorj/patch-1: update of iterations.doc
+    Merge pull request #2374 from shammellee/docs-extend-update: Fix typo
+    Merge pull request #2372 from shammellee/docs-typo-shammellee: Correct typo in "operators" documentation
+    Merge pull request #2364 from stylus/update-css: Update css
+    Merge pull request #2363 from akkumar/sourcemap_0_7_x: Sourcemap 0 7 x
+    Merge pull request #2352 from MadeByMike/dev: Use less confusing variable names
+    Merge pull request #2356 from iloginow/dev: Change the vim plugin link in readme
+    Merge pull request #2179 from kunalspathak/dev: transparentify: Fixed sorting order for alpha
+
+
+    Merge pull request #2346 from atilkan/patch-1: Added a supported framework
+    Merge pull request #2300 from Zearin/patch-1: Update bifs.md (organization, some copy edits)
+    Merge pull request #2168 from MNBuyskih/dev: Fix not watching files in windows
+    Merge pull request #2210 from twoRoger/fix-constructor: Fix bug when using 'constructor' in variables or loops
+    Merge pull request #2207 from idglv/dev: fixed last property semicolon when compress is on
+    Merge pull request #2200 from benedfit/patch-1: Returns val.toString() from Literal.toString()
+    Add support for comma-separated lists in convert BIF. Closes #2196
+
 0.54.5 / 2016-04-28
 ===================
 

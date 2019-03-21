@@ -173,7 +173,6 @@ Those selectors should start with a `$` symbol (for example, `$foo`), and are no
     .baz
       @extends $foo
 
-
 Yielding:
 
     .bar,
@@ -201,3 +200,38 @@ Yielding:
     .btn {
       color: #fff;
     }
+
+## Extending with block scope
+
+extend.block-level.styl:
+
+    .content
+      color black
+
+    .block-root
+      .content
+        color red
+      .extend-out
+        @extend .content
+      .text-extend-sub-1
+        .text-extend-sub-2
+          @extend .content
+
+    .block-root-next
+      @extend .block-root .content
+
+    .block-root-import
+      @import 'extend.cascade.styl'
+
+extend.cascade.styl:
+
+    .a
+      color: red
+
+    .b
+      &:hover
+        @extend .a
+
+    .c
+      @extend .b
+
